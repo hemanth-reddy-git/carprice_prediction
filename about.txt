@@ -1,0 +1,1 @@
+cpprediction ----- username and password for the django admin panel

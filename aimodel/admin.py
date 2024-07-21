@@ -11,7 +11,7 @@ class cardataadmin(admin.ModelAdmin):
         'model_prediction',
     )
     search_fields = ('year','condition')
-
+# Register your models here along with custome interface(cardataadmin)
 admin.site.register(cardata,cardataadmin)
 
-# Register your models here.
+

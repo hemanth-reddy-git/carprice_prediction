@@ -1,5 +1,5 @@
 from django.db import models
-
+#ORM takes places here 
 class cardata(models.Model):
     onroad_price = models.IntegerField()
     year = models.IntegerField()
